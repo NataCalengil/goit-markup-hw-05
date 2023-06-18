@@ -492,8 +492,12 @@ body {
   position: relative;
 }
 
-.portfolio-item:is(:hover, :focus) .portfolio-cover-text {
-  transform: translateY(0);
+.portfolio-item:hover .portfolio-cover-text {
+  transform: translateY(0%);
+}
+
+.portfolio-item:focus .portfolio-cover-text {
+  transform: translateY(0%);
 }
 
 .portfolio-cover-wrap {
@@ -518,6 +522,8 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+/* Modal */
 
 .modal-drop {
   position: fixed;
