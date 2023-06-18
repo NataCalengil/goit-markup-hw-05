@@ -493,7 +493,7 @@ body {
 }
 
 .portfolio-item:hover .portfolio-cover-text,
-.portfolio:focus .portfolio-cover-text {
+.portfolio-item:focus .portfolio-cover-text {
   transform: translateY(0);
 }
 
