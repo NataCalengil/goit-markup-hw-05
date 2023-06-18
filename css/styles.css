@@ -492,8 +492,8 @@ body {
   position: relative;
 }
 
-.projects-item:hover .projects-cover-text,
-.projects-item:focus .projects-cover-text {
+.portfolio-item:hover .portfolio-cover-text,
+.portfolio:focus .portfolio-cover-text {
   transform: translateY(0);
 }
 
