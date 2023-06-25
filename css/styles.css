@@ -366,13 +366,11 @@ body {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-social-link:is(:hover, :focus) {
   border: 1px solid #404bbf;
-  color: #404bbf;
 }
 
 .customers-social-link:is(:hover, :focus) .customers-social-icon {
@@ -381,6 +379,7 @@ body {
 
 .customers-social-icon {
   fill: currentColor;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-social-list {
